@@ -1,0 +1,17 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #F4F4F4;
+}
+
+.logo-div {
+    display: block;
+    margin: auto;
+}
+
+svg path {
+  stroke-width: 5;
+  stroke-miterlimit: round;
+  transition: stroke-dashoffset 2s ease-in-out;
+}
